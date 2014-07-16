@@ -77,8 +77,12 @@
 	margin-left: 230px;
 }
 
-.center p{
-	text-align: center;
+.center p{	
+	position: absolute;
+	bottom: 70px;
+	right: 380px;
+	
+
 }
 
 .center span{
