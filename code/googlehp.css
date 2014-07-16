@@ -1,0 +1,145 @@
+
+/*styling for the navigation bar*/
+.navbar{
+	background-color: #2D2D2D;
+	height: 30px;
+	display: block;
+	padding-top: 10px;
+	
+}
+
+.navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navbar li{
+	display: inline;
+	margin-left: 20px;		
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #9D9D9D;
+}
+
+#default{
+	color: #f6f6f6;
+}
+
+.navbar a:hover{
+	font-weight: bold;
+	color:#EDEDED;
+}
+
+/*styling for centerpiece items which include:
+	-Google logo
+	-search bar
+	-search buttons
+	-any text displayed in the center area
+*/
+.center{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: 50%;	
+}
+
+.center img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+}
+
+#searchbox{
+	width: 925px;
+	height: 30px;
+	margin: 10px;
+	background: url("/home/fibonacci/WebDev_Projects/google_homepage_project/images/microphone-icon.jpg") no-repeat right;
+	background-size: 22px 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7575FF;
+	font-size: 20px;
+}
+
+.button{
+	height: 30px;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 80px;
+}
+
+#search{
+	margin-left: 230px;
+}
+
+.center p{
+	text-align: center;
+}
+
+.center span{
+	color:red;
+	font-weight: bold;
+}
+ .center p a{
+ 	text-decoration: none;
+ 	color:blue;
+ }
+
+
+ /*styling for the download google chrome box and sign in button*/
+
+.top_right{
+	height:200px;
+	width: 400px;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+}
+
+ #sign_in{
+ 	position: absolute;
+ 	top: 10px; 
+ 	right: 20px;
+ 	height: 30px;
+ 	width: 80px;	
+ }
+
+ .dl_chrome{
+ 	height: 110px;
+ 	width: 300px;
+ 	position: absolute;
+ 	top: 60px;
+ 	right: 5px;
+ 	border-style: solid;
+ 	border-color: #E1E1E2;
+ }
+
+ .dl_chrome img{
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 5px;
+ }
+
+ .dl_chrome p{
+ 	position: absolute;
+ 	top: 5px;
+ 	left: 65px;
+ 	color:#9D9D9D;
+ }
+
+ #install_chrome{
+ 	position: absolute;
+ 	height: 32px;
+ 	width: 200px;
+ 	bottom: 30px;
+ 	right:20px;
+ 	color: white;
+ 	font-weight: bold;
+ 	background:#7575FF; 
+ }
+
