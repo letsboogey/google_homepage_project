@@ -2,7 +2,7 @@
 /*styling for the navigation bar*/
 .navbar{
 	background-color: #2D2D2D;
-	height: 30px;
+	height: 25px;
 	display: block;
 	padding-top: 10px;
 	
@@ -55,8 +55,8 @@
 }
 
 #searchbox{
-	width: 925px;
-	height: 30px;
+	width: 900px;
+	height: 25px;
 	margin: 10px;
 	background: url("/home/fibonacci/WebDev_Projects/google_homepage_project/images/microphone-icon.jpg") no-repeat right;
 	background-size: 22px 20px;
@@ -67,8 +67,8 @@
 }
 
 .button{
-	height: 30px;
-	width: 200px;
+	height: 25px;
+	width: 170px;
 	margin-top: 15px;
 	margin-left: 80px;
 }
